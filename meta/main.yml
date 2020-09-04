@@ -23,5 +23,5 @@ galaxy_info:
         - all
 
   galaxy_tags:
-    - AuthorizedKeys
-    - SSH
+    - authorizedkeys
+    - ssh
