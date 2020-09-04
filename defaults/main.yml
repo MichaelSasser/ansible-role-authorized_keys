@@ -1,0 +1,7 @@
+---
+# defualts file for michaelsasser.authorized_keys
+
+authorized_keys_users:
+  - michael
+
+authorized_keys_url: https://gist.githubusercontent.com/MichaelSasser/1eb41a2ffab0dceecaf4449817b30ea3/raw/9f96583f3490971ea5220992746acea1a0550961/authorized_keys

@@ -1,0 +1,27 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: Michael Sasser
+  description: Adds SSH authorized keys to a System
+  company: MichaelSasser.org
+  issue_tracker_url: https://github.com/MichaelSasser/ansible-role-authorized_keys/issues
+  license: GPL-3.0-only
+  min_ansible_version: 2.9
+  # min_ansible_container_version:
+  github_branch: https://github.com/MichaelSasser/ansible-role-authorized_keys
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags:
+    - AuthorizedKeys
+    - SSH

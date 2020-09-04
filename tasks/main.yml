@@ -1,0 +1,11 @@
+---
+# tasks file for michaelsasser.authorized_keys
+
+
+- name: Ensure authorized keys are installed from URL
+  authorized_key:
+    user: "{{ item }}"
+    state: present
+    key: "{{ authorized_keys_url }}"
+  loop: "{{ authorized_keys_users }}"
+
